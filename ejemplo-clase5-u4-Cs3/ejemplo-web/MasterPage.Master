@@ -39,6 +39,7 @@
             </div>
         </nav>
         <div class="container">
+            <hr />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

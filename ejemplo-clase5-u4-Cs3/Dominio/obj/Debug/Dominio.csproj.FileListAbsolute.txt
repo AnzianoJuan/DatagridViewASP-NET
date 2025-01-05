@@ -1,0 +1,6 @@
+C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\Dominio\bin\Debug\Dominio.dll
+C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\Dominio\bin\Debug\Dominio.pdb
+C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\Dominio\obj\Debug\Dominio.dll
+C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\Dominio\obj\Debug\Dominio.pdb

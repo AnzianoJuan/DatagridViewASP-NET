@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Dominio;
 
 namespace ejemplo_web
 {
@@ -11,6 +12,10 @@ namespace ejemplo_web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            AutoNegocio negocio = new AutoNegocio();
+
+            GridViewAutos.DataSource = negocio.listar();
+            GridViewAutos.DataBind();
 
         }
     }

@@ -48,7 +48,7 @@ namespace Dominio
             listaDeAutos[1].Color = "Negro";
             listaDeAutos[1].Fecha = DateTime.Now;
             listaDeAutos[1].Usado = true;
-            listaDeAutos[1].Importado = true;
+            listaDeAutos[1].Importado = false;
 
             return listaDeAutos;
 

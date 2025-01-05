@@ -57,3 +57,5 @@ C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-
 C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\ejemplo-web\obj\Debug\ejemplo-.D9010164.Up2Date
 C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\ejemplo-web\obj\Debug\ejemplo-web.dll
 C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\ejemplo-web\obj\Debug\ejemplo-web.pdb
+C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\ejemplo-web\bin\Dominio.dll
+C:\Users\juani\Desktop\acces\cSharp-MaxiPrograma\cSharp-III\U4\gridView\ejemplo-clase5-u4-Cs3\ejemplo-web\bin\Dominio.pdb
