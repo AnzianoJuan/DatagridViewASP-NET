@@ -12,9 +12,15 @@ namespace ejemplo_web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            AutoNegocio negocio = new AutoNegocio();
+           
 
-            GridViewAutos.DataSource = negocio.listar();
+            if (Session["ListaAutos"] == null)
+            {
+                AutoNegocio negocio = new AutoNegocio();
+                Session.Add("ListaAutos", negocio.listar());
+            }
+
+            GridViewAutos.DataSource = Session["ListaAutos"];
             GridViewAutos.DataBind();
 
         }

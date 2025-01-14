@@ -6,8 +6,6 @@
 
     <%--
     <%--
-            public string Color { get; set; }
-            public DateTime Fecha { get; set; }
             public bool Usado { get; set; }
             public bool Importado { get; set; } --%>
 
@@ -28,9 +26,24 @@
             </div>
             <div class="mb-3">
                 <label for="TextBoxColor" class="form-label">Color</label>
-
+                <asp:DropDownList ID="ddlColores" CssClass="form-select" runat="server"></asp:DropDownList>
+            </div>
+            <div class="mb-3">
+                <label for="TextBoxFecha" class="form-label">Fecha</label>
+                <asp:TextBox runat="server" TextMode="Date" ID="TextBoxFecha" CssClass="form-control" />
             </div>
 
+            <asp:CheckBox Text="" ID="CheckBoxUsado" runat="server" />
+            <label class="form-check-label">Usado</label>
+
+            <div class="mb-3">
+                <asp:RadioButton AutoPostBack="true" ID="RadioButtonImportado" OnCheckedChanged="RadioButtonImportado_CheckedChanged" Text="Importado" runat="server" GroupName="Importado" />
+                <asp:RadioButton AutoPostBack="true" ID="RadioButtonNacional" Text="Nacional" OnCheckedChanged="RadioButtonImportado_CheckedChanged" Checked="true" runat="server" GroupName="Importado" />
+            </div>
+            <div class="mb-3">
+                <asp:Button ID="ButtonAgregarAuto" CssClass="btn btn-primary" runat="server" OnClick="ButtonAgregarAuto_Click" Text="Aceptar" />
+                <a href="Default.aspx">Cancelar</a>
+            </div>
         </div>
     </div>
 
