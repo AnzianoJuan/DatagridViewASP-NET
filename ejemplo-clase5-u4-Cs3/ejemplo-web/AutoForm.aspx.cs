@@ -18,6 +18,25 @@ namespace ejemplo_web
                 ddlColores.Items.Add("Blanco");
                 ddlColores.Items.Add("Rojo");
             }
+
+            if (Request.QueryString["id"] != null)
+            {
+                int id = int.Parse(Request.QueryString["id"].ToString());
+
+                List<Auto> temporal = (List<Auto>)Session["ListaAutos"];
+                Auto seleccionado = temporal.Find(x => x.Id == id);
+
+                TextBoxModelo.Text = seleccionado.Modelo;
+                TextBoxId.Text = seleccionado.Id.ToString();
+                TextBoxId.ReadOnly = true;
+                ButtonAgregarAuto.Enabled = false;
+            }else if (Request.QueryString["id"] == null)
+            {
+                ButtonModificarAuto.Enabled = false;
+            }
+
+
+
         }
 
         protected void ButtonAgregarAuto_Click(object sender, EventArgs e)
@@ -48,6 +67,15 @@ namespace ejemplo_web
         protected void RadioButtonImportado_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void ButtonModificar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ButtonModificarAuto_Click(object sender, EventArgs e)
+        {
         }
     }
 }

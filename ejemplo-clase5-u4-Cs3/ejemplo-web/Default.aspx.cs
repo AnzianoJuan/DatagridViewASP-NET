@@ -24,5 +24,12 @@ namespace ejemplo_web
             GridViewAutos.DataBind();
 
         }
+
+        protected void GridViewAutos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            var id = GridViewAutos.SelectedDataKey.Value.ToString();
+            Response.Redirect("AutoForm.aspx?id=" + id);
+        }
     }
 }

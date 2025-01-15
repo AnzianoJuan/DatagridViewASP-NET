@@ -42,8 +42,10 @@
             </div>
             <div class="mb-3">
                 <asp:Button ID="ButtonAgregarAuto" CssClass="btn btn-primary" runat="server" OnClick="ButtonAgregarAuto_Click" Text="Aceptar" />
+                <asp:Button ID="ButtonModificarAuto" CssClass="btn btn-primary" runat="server" OnClick="ButtonModificarAuto_Click" Text="Modificar" />
                 <a href="Default.aspx">Cancelar</a>
             </div>
+
         </div>
     </div>
 
